@@ -1,0 +1,30 @@
+# Development-specific Gradle properties
+# Copy this to gradle.properties and customize as needed
+
+# Performance optimizations for development
+org.gradle.daemon=true
+org.gradle.parallel=true
+org.gradle.caching=true
+org.gradle.configureondemand=true
+
+# Memory settings for development
+org.gradle.jvmargs=-Xmx6g -XX:MaxMetaspaceSize=512m -XX:+HeapDumpOnOutOfMemoryError
+
+# Kotlin compiler settings
+kotlin.code.style=official
+kotlin.mpp.enableGranularSourceSetsMetadata=true
+kotlin.native.enableDependencyPropagation=false
+
+# Skip Android build if SDK not available (for desktop-only development)
+unciv.skipAndroid=false
+
+# Development mode flags
+unciv.dev.fastBuild=true
+unciv.dev.skipLint=false
+
+# Dependency versions (should match gradle.properties)
+kotlinVersion=2.1.21
+gdxVersion=1.13.1
+coroutinesVersion=1.8.1
+ktorVersion=3.2.3
+jnaVersion=5.17.0
