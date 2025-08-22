@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Unciv Desktop",
+            "request": "launch",
+            "mainClass": "com.unciv.app.desktop.DesktopLauncher",
+            "projectName": "desktop",
+            "cwd": "${workspaceFolder}/android/assets",
+            "vmArgs": "-Xmx4096m -Xms256m",
+            "args": []
+        },
+        {
+            "type": "java",
+            "name": "Debug Unciv Desktop",
+            "request": "launch",
+            "mainClass": "com.unciv.app.desktop.DesktopLauncher",
+            "projectName": "desktop",
+            "cwd": "${workspaceFolder}/android/assets",
+            "vmArgs": "-Xmx4096m -Xms256m -DnoLog=",
+            "args": []
+        }
+    ]
+}
