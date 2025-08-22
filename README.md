@@ -48,13 +48,16 @@ In this order:
 
 ## Contributing
 
-Programmers start [here](https://yairm210.github.io/Unciv/Developers/Building-Locally/)!
+**🚀 Quick Start for Developers:**
+- [Developer Quick Start Guide](DEVELOPER-QUICKSTART.md) - Get coding in 5 minutes!
+- [Contributing Guide](CONTRIBUTING.md) - How to contribute effectively
+- [Detailed Build Instructions](https://yairm210.github.io/Unciv/Developers/Building-Locally/) - Comprehensive setup guide
 
-Translators start [here](https://yairm210.github.io/Unciv/Other/Translating/)! Language completion status [here](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/completionPercentages.properties) 
+**Other Contributors:**
+- **Translators** start [here](https://yairm210.github.io/Unciv/Other/Translating/)! Language completion status [here](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/completionPercentages.properties)
+- **Modders** start [here](https://yairm210.github.io/Unciv/Modders/Mods/)!
 
-Modders start [here](https://yairm210.github.io/Unciv/Modders/Mods/)!
-
-You can join us in any of the open issue, or work on improving anything you want - once you're finished, issue a pull request and it'll go into the next version!
+You can join us in any of the open issues, or work on improving anything you want - once you're finished, issue a pull request and it'll go into the next version!
 
 If not, you can help by spreading the word - vote for Unciv where you can, mention it on Reddit or Twitter etc, and help us with new ideas of how to get the word out!
 

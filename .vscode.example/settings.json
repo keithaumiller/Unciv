@@ -1,0 +1,25 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "kotlin.languageServer.enabled": true,
+    "files.associations": {
+        "*.gradle.kts": "kotlin"
+    },
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+        "**/.gradle": true,
+        "**/build": true,
+        "**/.idea": true,
+        "**/android/assets/SaveFiles": true,
+        "**/android/assets/mods": true,
+        "**/android/assets/MultiplayerGames": true
+    },
+    "search.exclude": {
+        "**/.gradle": true,
+        "**/build": true,
+        "**/android/assets/SaveFiles": true,
+        "**/android/assets/mods": true
+    }
+}
